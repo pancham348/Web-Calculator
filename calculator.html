@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+	  <script src="calculator.js"></script>
+	  <link rel="stylesheet" type="text/css" href="calculator.css">
+		<link rel="import" href="../../bower_components/polymer/polymer.html">
+	</head>
+	<body>
+			
+			  <div id="calculator" class="calc-light">
+					<input id="display" type="text" value=0 readonly><br>
+					<div id="keypad">
+						<button data-val="c" class="key">C</button>
+						<button data-val="+" class="key">+</button>
+						<button data-val="-" class="key">-</button>
+						<button data-val="*" class="key">*</button>
+						<button data-val="/" class="key">/</button>
+						<button data-val="sqrt" class="key">sqrt</button>
+						<button data-val=1 class="key">1</button>
+						<button data-val=2 class="key">2</button>
+						<button data-val=3 class="key">3</button>
+						<button data-val=4 class="key">4</button>
+						<button data-val=5 class="key">5</button>
+						<button data-val=6 class="key">6</button>
+						<button data-val=7 class="key">7</button>
+						<button data-val=8 class="key">8</button>
+						<button data-val=9 class="key">9</button>
+						<button data-val="=" class="key">=</button>
+						<button data-val=0 class="key">0</button>
+						<button data-val="theme" class="key">Theme</button>
+						
+			  	</div>
+			</div>
+			<script>
+			var c = new Calculator();
+			</script>
+		</body>
+</html>
+		
